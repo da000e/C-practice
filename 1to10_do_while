@@ -6,5 +6,13 @@ int main() {
         printf("%d ", i);
         i++;
     } while (i <= 10);
+    printf("\n");
+
+    i = 1;
+    do {
+        printf("2 * %d = %d\n", i, i*2);
+        i++;
+    } while (i < 10);
+
     return 0;
 }
