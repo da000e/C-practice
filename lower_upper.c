@@ -11,4 +11,5 @@ int main() {
     } else {
         printf("다른 문자\n");
     }
+    return 0;
 }
